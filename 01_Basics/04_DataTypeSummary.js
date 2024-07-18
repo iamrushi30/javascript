@@ -39,7 +39,7 @@
  //stack(primitive)  and heap(non primitive)
 
 
- // stack eg primitive
+ // stack eg primitive in stack we get copy of our data 
 
  let myyoutube="codewithrushi"
 
@@ -50,9 +50,17 @@
  console.log(myyoutube);
 
 
-// heap eg non primitive (array)
+// heap eg non primitive (array) : here we get refrence not copy 
 
 let userOne={
     email:"user@goggle.com",
     upi:"usre@ybl"
 }
+
+let usertwo= userOne
+    usertwo.email="rushi@gmail.com",
+    usertwo.upi="hdfc@ybl"
+
+
+console.log(userOne.upi);
+console.log(usertwo.upi);
