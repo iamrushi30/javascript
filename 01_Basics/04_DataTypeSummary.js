@@ -33,3 +33,26 @@
  }
 
  console.log(typeof bigNumber);
+
+ //****************************************** */
+
+ //stack(primitive)  and heap(non primitive)
+
+
+ // stack eg primitive
+
+ let myyoutube="codewithrushi"
+
+ let   anothername=myyoutube
+ anothername="rushi"
+
+ console.log(anothername);
+ console.log(myyoutube);
+
+
+// heap eg non primitive (array)
+
+let userOne={
+    email:"user@goggle.com",
+    upi:"usre@ybl"
+}
